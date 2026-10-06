@@ -1,13 +1,13 @@
 {
 	"name": "vym",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "Lightweight vim-style key bindings for web apps: modes, multi-key sequences, count prefixes and named commands.",
 	"license": "MIT",
 	"type": "module",
 	"exports": {
 		".": "./src/index.ts"
 	},
-	"files": ["src/index.ts", "src/trie.ts"],
+	"files": ["src/index.ts", "src/trie.ts", "src/history.ts"],
 	"repository": "github:Blue-Leo/vym",
 	"keywords": ["vim", "keybindings", "keyboard", "shortcuts"],
 	"devDependencies": {

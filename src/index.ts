@@ -18,6 +18,8 @@
 
 import { insertSequence, trieNode, type TrieAction, type TrieNode } from './trie';
 
+export { History, DEFAULT_HISTORY_CAP, type HistoryEntry, type HistoryOp, type HistoryOptions } from './history';
+
 export class Vym {
 	private readonly roots: Map<string, TrieNode> = new Map();   // mode → root of its trie
 	private readonly commands: Map<string, TrieAction> = new Map(); // name → action
